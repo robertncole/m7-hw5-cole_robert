@@ -28,3 +28,5 @@ var linkListItem = document.createElement('li');
 
 linkListItem.appendChild(link);
 headerUl.appendChild(linkListItem);
+
+var linkText = document.createTextNode('This is the my link');
