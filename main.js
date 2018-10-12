@@ -23,3 +23,4 @@ header.appendChild(headerText);
 headerLi.appendChild(listItemText);
 
 header.classList.add('blue');
+main.classList.add('text-center');
