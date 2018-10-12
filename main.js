@@ -19,8 +19,8 @@ var headerText = document.createTextNode('This is the header text!');
 var listItemText = document.createTextNode('This is the list item');
 
 header.appendChild(headerText);
-
 headerLi.appendChild(listItemText);
-
 header.classList.add('blue');
 main.classList.add('text-center');
+
+var link = document.createElement('a');
